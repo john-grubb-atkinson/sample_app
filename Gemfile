@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+
 gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
@@ -9,6 +10,8 @@ gem 'sqlite3', '1.3.4'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
+#  gem 'annotate', '2.4.0', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
+  gem 'annotate', '2.4.1.beta1'
 end
 
 group :test do
