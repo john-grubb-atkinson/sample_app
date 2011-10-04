@@ -1,0 +1,17 @@
+<table summary="Information about following/followers">
+  <tr>
+    <td class = "main">
+      <h1><%= @title %></h1>
+
+      <% unless @users.empty? %>
+	<ul class = "users">
+	  <%= render @users %>
+	</ul>
+	<%= will_paginate @users %>
+      <% end %>
+    </td>
+    <td class="sidebar round">
+      <strong>Name</strong> <%= @user.name %><br />
+      <strong>
+  </tr>
+<table>
